@@ -94,7 +94,7 @@ class Move_Lc:
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
             'Accept-Encoding': 'gzip, deflate',
-            'Referer': 'http://58.252.75.38:8091/SCV_RF/whinvtransfer/ToLocEntry.aspx',
+            'Referer': 'http://{}/SCV_RF/whinvtransfer/ToLocEntry.aspx'.format(self.app_ip),
             'Content-Type': 'application/x-www-form-urlencoded',
             'Content-Length': '27',
             'Connection': 'keep-alive',
